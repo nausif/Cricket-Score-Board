@@ -1,0 +1,37 @@
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe.config
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.pdb
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csprojResolveAssemblyReference.cache
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Form1.resources
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Properties.Resources.resources
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csproj.GenerateResource.Cache
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.exe
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.pdb
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Cricket_Score_Board.resources
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Settings.resources
+C:\Users\NAUSIF\Desktop\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.StartMatch.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe.config
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.exe
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.pdb
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.pdb
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csprojResolveAssemblyReference.cache
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Cricket_Score_Board.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Form1.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Properties.Resources.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Settings.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.StartMatch.resources
+D:\DATA\AAG AVD\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csproj.GenerateResource.Cache
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csproj.AssemblyReference.cache
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Cricket_Score_Board.resources
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Form1.resources
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Properties.Resources.resources
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.Settings.resources
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket_Score_Board.StartMatch.resources
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csproj.GenerateResource.cache
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.csproj.CoreCompileInputs.cache
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.pdb
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe.config
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.exe
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\bin\Debug\Cricket Score Board.pdb
+C:\Users\ArshMomin\Downloads\Cricket Score Board\Cricket Score Board\obj\Debug\Cricket Score Board.exe

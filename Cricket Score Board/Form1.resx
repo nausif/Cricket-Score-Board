@@ -1,0 +1,1810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 140.25pt, style=Bold</value>
+  </data>
+  <data name="lblScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-54, 15</value>
+  </data>
+  <data name="lblScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 226</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblScore.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblScore.Text" xml:space="preserve">
+    <value>0/0</value>
+  </data>
+  <data name="lblScore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Name" xml:space="preserve">
+    <value>lblScore</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScore.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblScore.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblOver.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lblOver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 140.25pt, style=Bold</value>
+  </data>
+  <data name="lblOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 226</value>
+  </data>
+  <data name="lblOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 224</value>
+  </data>
+  <data name="lblOver.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblOver.Text" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="lblOver.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Name" xml:space="preserve">
+    <value>lblOver</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOver.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblOver.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 447</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="pictureBoxstrip2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAArYAAAAKCAYAAABBlB3LAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAHJSURBVHhe7dq5bhNRAIXheZIU
+        ILE8Ay00CCGeJY9AJORpbCGBwCg2BU1im6VzPPvijO2xjSCQggACUaAsCDwsihNEzLmIHsop/uLTae7t
+        f11dK572t6NJuhWOk+diFgAAACiVaJxuxZP+i/RptiPvvVH0ru0+ceqd+9ftZu3iSt0+RdgCAACg9P43
+        bL8pbGe68EXMAgAAAKWisJ0pbAtF7VwWCtsThe1Lhe1the1Vhe1ZS1H7U4fnQR4filkAAACgVMI8mStu
+        j5Pp5i9ZuINw0XIev6l3mvcUttcUtuctRe13HS78UTQTswAAAECJxEUwSoowT78mk80jWbhZcLLee7Rd
+        bzdu2c2qebE9ZylqP+vCgTcM98UsAAAAUCr+MDoIRvGnaJKab7THzsA/avUePlPY3rSbtSt/viL8jdo9
+        dxDsilkAAACgVLxBuKe43Q/HSSGHvcz7sb7Rmd5trdbsRvWywvaMCdu3CtsdXXglZgEAAIBS8cQfhq/D
+        PP4Q5PHuRt/9uNbthHdaqzcqjeqllXrltKWo9XTYcTK/J2YBAACAUnFFcesGeRT7eZR1+05/rdt+oLBd
+        VtheUNguEbYAAAAovX+HbWXpN60MxG/xh0dbAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBoxstrip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 244</value>
+  </data>
+  <data name="pictureBoxstrip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 10</value>
+  </data>
+  <data name="pictureBoxstrip2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBoxstrip2.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip2.Name" xml:space="preserve">
+    <value>pictureBoxstrip2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_WonDraw.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lbl_WonDraw.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 45pt, style=Bold</value>
+  </data>
+  <data name="lbl_WonDraw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_WonDraw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 439</value>
+  </data>
+  <data name="lbl_WonDraw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>701, 89</value>
+  </data>
+  <data name="lbl_WonDraw.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="lbl_WonDraw.Text" xml:space="preserve">
+    <value>DUSHANBE WON BY 999 RUNS</value>
+  </data>
+  <data name="lbl_WonDraw.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbl_WonDraw.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lbl_WonDraw.Name" xml:space="preserve">
+    <value>lbl_WonDraw</value>
+  </data>
+  <data name="&gt;&gt;lbl_WonDraw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_WonDraw.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbl_WonDraw.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 23.25pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 124</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 35</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>BALLS REMAINING</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblremainsballs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lblremainsballs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 45pt, style=Bold</value>
+  </data>
+  <data name="lblremainsballs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblremainsballs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 142</value>
+  </data>
+  <data name="lblremainsballs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 118</value>
+  </data>
+  <data name="lblremainsballs.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="lblremainsballs.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblremainsballs.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblremainsballs.Name" xml:space="preserve">
+    <value>lblremainsballs</value>
+  </data>
+  <data name="&gt;&gt;lblremainsballs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblremainsballs.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblremainsballs.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 447</value>
+  </data>
+  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
+    <value>pictureBox8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 447</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 447</value>
+  </data>
+  <data name="pictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 447</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 447</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 447</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 447</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 86</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pictureBoxstrip3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAArYAAAAKCAYAAABBlB3LAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAHJSURBVHhe7dq5bhNRAIXheZIU
+        ILE8Ay00CCGeJY9AJORpbCGBwCg2BU1im6VzPPvijO2xjSCQggACUaAsCDwsihNEzLmIHsop/uLTae7t
+        f11dK572t6NJuhWOk+diFgAAACiVaJxuxZP+i/RptiPvvVH0ru0+ceqd+9ftZu3iSt0+RdgCAACg9P43
+        bL8pbGe68EXMAgAAAKWisJ0pbAtF7VwWCtsThe1Lhe1the1Vhe1ZS1H7U4fnQR4filkAAACgVMI8mStu
+        j5Pp5i9ZuINw0XIev6l3mvcUttcUtuctRe13HS78UTQTswAAAECJxEUwSoowT78mk80jWbhZcLLee7Rd
+        bzdu2c2qebE9ZylqP+vCgTcM98UsAAAAUCr+MDoIRvGnaJKab7THzsA/avUePlPY3rSbtSt/viL8jdo9
+        dxDsilkAAACgVLxBuKe43Q/HSSGHvcz7sb7Rmd5trdbsRvWywvaMCdu3CtsdXXglZgEAAIBS8cQfhq/D
+        PP4Q5PHuRt/9uNbthHdaqzcqjeqllXrltKWo9XTYcTK/J2YBAACAUnFFcesGeRT7eZR1+05/rdt+oLBd
+        VtheUNguEbYAAAAovX+HbWXpN60MxG/xh0dbAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBoxstrip3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxstrip3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 429</value>
+  </data>
+  <data name="pictureBoxstrip3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 10</value>
+  </data>
+  <data name="pictureBoxstrip3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBoxstrip3.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip3.Name" xml:space="preserve">
+    <value>pictureBoxstrip3</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pictureBoxstrip1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAsAAAGmCAYAAACqWX6iAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAICSURBVHhe7dxLaxNRGMbx8wm8
+        oGsLKqKuiot2o1K/jQv34kIQY0MaF4LQgSSlXmglFpEmY9Jc5nLmkklmJik0pqAiIoK9haZimsZSSHwC
+        LvIBXD6LP7xwfof3fIIjIonYBTSBLqErkcTc1VGPE3PX0HU0mi+ji0JJJ++ie/Pp5AMUVdKpmPI2FUfP
+        lJWF5yiGHqL7IiNzKtKyMreRtfPbqrXWVp1CJ+cUujm32Mu7pV20iQJhhNJAvhla32XdObLq7ondqAyc
+        hjd01r2hu17tox/ok9Cqxgek6zWzpdfkjuFb+2Zg/5Kh00cnuLyHNlEoSp6uIq1cNTbQT61m7um+7BiB
+        1UPHZmjvoBYKxnETbQG3iYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJ
+        iYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYn/D86iMuD4j0D7gIfoD9A2+oh8AaAiDaiJtgDbQB0c9tCx
+        rDu7qIUCYdTMIrJNX342fftABk7XCt0ju14ZoKHT8H6jr6gp1irlEnILlfKXoqcd4EmH2NTHlgEaYlMX
+        fUMtsbi6FEFxlHyxupR+mVl+9yqz/P519o2K8mgFLaB58SQZn0Q30DS6NZt6Ouo2mkF30E00jabEIyV6
+        Cp1GZ9G5sc7/azTjLHrmL2uPiWhAChCHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBoxstrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxstrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, -1</value>
+  </data>
+  <data name="pictureBoxstrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 439</value>
+  </data>
+  <data name="pictureBoxstrip1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBoxstrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip1.Name" xml:space="preserve">
+    <value>pictureBoxstrip1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxstrip1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 23pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 259</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 35</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>TARGET</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 39.75pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 362</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 61</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>OVER</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lbltarget.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lbltarget.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 100pt, style=Bold</value>
+  </data>
+  <data name="lbltarget.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbltarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 260</value>
+  </data>
+  <data name="lbltarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 197</value>
+  </data>
+  <data name="lbltarget.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbltarget.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lbltarget.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbltarget.Name" xml:space="preserve">
+    <value>lbltarget</value>
+  </data>
+  <data name="&gt;&gt;lbltarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbltarget.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbltarget.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 23.25pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 5</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 35</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>RUNS REMAINING</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblremainruns.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="lblremainruns.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 45pt, style=Bold</value>
+  </data>
+  <data name="lblremainruns.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblremainruns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 19</value>
+  </data>
+  <data name="lblremainruns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 123</value>
+  </data>
+  <data name="lblremainruns.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblremainruns.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblremainruns.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblremainruns.Name" xml:space="preserve">
+    <value>lblremainruns</value>
+  </data>
+  <data name="&gt;&gt;lblremainruns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblremainruns.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblremainruns.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 207</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 530</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>Cricket_Score_Board.Form1+DoubleBufferPanel, Cricket Score Board, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panel_Display_Profiles.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxClosePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1308, 12</value>
+  </data>
+  <data name="pictureBoxClosePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="pictureBoxClosePanel.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxClosePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxClosePanel.Name" xml:space="preserve">
+    <value>pictureBoxClosePanel</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxClosePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxClosePanel.Parent" xml:space="preserve">
+    <value>panel_Display_Profiles</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxClosePanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel_Display_Profiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_Display_Profiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1370, 768</value>
+  </data>
+  <data name="panel_Display_Profiles.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="panel_Display_Profiles.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel_Display_Profiles.Name" xml:space="preserve">
+    <value>panel_Display_Profiles</value>
+  </data>
+  <data name="&gt;&gt;panel_Display_Profiles.Type" xml:space="preserve">
+    <value>Cricket_Score_Board.Form1+DoubleBufferPanel, Cricket Score Board, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel_Display_Profiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_Display_Profiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lbl_panel1_player11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 499</value>
+  </data>
+  <data name="lbl_panel1_player11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 42</value>
+  </data>
+  <data name="lbl_panel1_player11.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lbl_panel1_player11.Text" xml:space="preserve">
+    <value>PLAYER 11</value>
+  </data>
+  <data name="lbl_panel1_player11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player11.Name" xml:space="preserve">
+    <value>lbl_panel1_player11</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player11.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_panel1_player8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 351</value>
+  </data>
+  <data name="lbl_panel1_player8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_panel1_player8.Text" xml:space="preserve">
+    <value>PLAYER 8</value>
+  </data>
+  <data name="lbl_panel1_player8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player8.Name" xml:space="preserve">
+    <value>lbl_panel1_player8</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_panel1_player10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 451</value>
+  </data>
+  <data name="lbl_panel1_player10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_panel1_player10.Text" xml:space="preserve">
+    <value>PLAYER 10</value>
+  </data>
+  <data name="lbl_panel1_player10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player10.Name" xml:space="preserve">
+    <value>lbl_panel1_player10</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_panel1_player9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 401</value>
+  </data>
+  <data name="lbl_panel1_player9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 42</value>
+  </data>
+  <data name="lbl_panel1_player9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_panel1_player9.Text" xml:space="preserve">
+    <value>PLAYER 9</value>
+  </data>
+  <data name="lbl_panel1_player9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player9.Name" xml:space="preserve">
+    <value>lbl_panel1_player9</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_panel1_player7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 301</value>
+  </data>
+  <data name="lbl_panel1_player7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_panel1_player7.Text" xml:space="preserve">
+    <value>PLAYER 7</value>
+  </data>
+  <data name="lbl_panel1_player7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player7.Name" xml:space="preserve">
+    <value>lbl_panel1_player7</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_panel1_player6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 251</value>
+  </data>
+  <data name="lbl_panel1_player6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_panel1_player6.Text" xml:space="preserve">
+    <value>PLAYER 6</value>
+  </data>
+  <data name="lbl_panel1_player6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player6.Name" xml:space="preserve">
+    <value>lbl_panel1_player6</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_panel1_player5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 201</value>
+  </data>
+  <data name="lbl_panel1_player5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_panel1_player5.Text" xml:space="preserve">
+    <value>PLAYER 5</value>
+  </data>
+  <data name="lbl_panel1_player5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player5.Name" xml:space="preserve">
+    <value>lbl_panel1_player5</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_panel1_player4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 151</value>
+  </data>
+  <data name="lbl_panel1_player4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_panel1_player4.Text" xml:space="preserve">
+    <value>PLAYER 4</value>
+  </data>
+  <data name="lbl_panel1_player4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player4.Name" xml:space="preserve">
+    <value>lbl_panel1_player4</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_panel1_player3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 101</value>
+  </data>
+  <data name="lbl_panel1_player3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_panel1_player3.Text" xml:space="preserve">
+    <value>PLAYER 3</value>
+  </data>
+  <data name="lbl_panel1_player3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player3.Name" xml:space="preserve">
+    <value>lbl_panel1_player3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_panel1_player2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel1_player2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 51</value>
+  </data>
+  <data name="lbl_panel1_player2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel1_player2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_panel1_player2.Text" xml:space="preserve">
+    <value>PLAYER 2</value>
+  </data>
+  <data name="lbl_panel1_player2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player2.Name" xml:space="preserve">
+    <value>lbl_panel1_player2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_panel1_player1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel1_player1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 1</value>
+  </data>
+  <data name="lbl_panel1_player1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 42</value>
+  </data>
+  <data name="lbl_panel1_player1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_panel1_player1.Text" xml:space="preserve">
+    <value>PLAYER 1</value>
+  </data>
+  <data name="lbl_panel1_player1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player1.Name" xml:space="preserve">
+    <value>lbl_panel1_player1</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel1_player1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 204</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 543</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>Cricket_Score_Board.Form1+DoubleBufferPanel, Cricket Score Board, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="picturebox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="picturebox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-15, 35</value>
+  </data>
+  <data name="picturebox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1400, 137</value>
+  </data>
+  <data name="picturebox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="picturebox.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;picturebox.Name" xml:space="preserve">
+    <value>picturebox</value>
+  </data>
+  <data name="&gt;&gt;picturebox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picturebox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picturebox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBoxTeam1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 44</value>
+  </data>
+  <data name="pictureBoxTeam1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 118</value>
+  </data>
+  <data name="pictureBoxTeam1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxTeam1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam1.Name" xml:space="preserve">
+    <value>pictureBoxTeam1</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBoxTeam2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxTeam2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 44</value>
+  </data>
+  <data name="pictureBoxTeam2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 118</value>
+  </data>
+  <data name="pictureBoxTeam2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxTeam2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam2.Name" xml:space="preserve">
+    <value>pictureBoxTeam2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxTeam2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBoxbat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 44</value>
+  </data>
+  <data name="pictureBoxbat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 118</value>
+  </data>
+  <data name="pictureBoxbat.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxbat.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxbat.Name" xml:space="preserve">
+    <value>pictureBoxbat</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxbat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxbat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxbat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBoxball.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxball.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1229, 44</value>
+  </data>
+  <data name="pictureBoxball.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 118</value>
+  </data>
+  <data name="pictureBoxball.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBoxball.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxball.Name" xml:space="preserve">
+    <value>pictureBoxball</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxball.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxball.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxball.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lbl_panel2_player11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 499</value>
+  </data>
+  <data name="lbl_panel2_player11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel2_player11.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lbl_panel2_player11.Text" xml:space="preserve">
+    <value>PLAYER 11</value>
+  </data>
+  <data name="lbl_panel2_player11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player11.Name" xml:space="preserve">
+    <value>lbl_panel2_player11</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player11.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_panel2_player8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 349</value>
+  </data>
+  <data name="lbl_panel2_player8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 42</value>
+  </data>
+  <data name="lbl_panel2_player8.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbl_panel2_player8.Text" xml:space="preserve">
+    <value>PLAYER 8</value>
+  </data>
+  <data name="lbl_panel2_player8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player8.Name" xml:space="preserve">
+    <value>lbl_panel2_player8</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player8.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_panel2_player10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 449</value>
+  </data>
+  <data name="lbl_panel2_player10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 42</value>
+  </data>
+  <data name="lbl_panel2_player10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_panel2_player10.Text" xml:space="preserve">
+    <value>PLAYER 10</value>
+  </data>
+  <data name="lbl_panel2_player10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player10.Name" xml:space="preserve">
+    <value>lbl_panel2_player10</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player10.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_panel2_player9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 399</value>
+  </data>
+  <data name="lbl_panel2_player9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel2_player9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_panel2_player9.Text" xml:space="preserve">
+    <value>PLAYER 9</value>
+  </data>
+  <data name="lbl_panel2_player9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player9.Name" xml:space="preserve">
+    <value>lbl_panel2_player9</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player9.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_panel2_player7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 299</value>
+  </data>
+  <data name="lbl_panel2_player7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 42</value>
+  </data>
+  <data name="lbl_panel2_player7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_panel2_player7.Text" xml:space="preserve">
+    <value>PLAYER 7</value>
+  </data>
+  <data name="lbl_panel2_player7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player7.Name" xml:space="preserve">
+    <value>lbl_panel2_player7</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player7.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_panel2_player6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 249</value>
+  </data>
+  <data name="lbl_panel2_player6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel2_player6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_panel2_player6.Text" xml:space="preserve">
+    <value>PLAYER 6</value>
+  </data>
+  <data name="lbl_panel2_player6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player6.Name" xml:space="preserve">
+    <value>lbl_panel2_player6</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player6.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_panel2_player5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 199</value>
+  </data>
+  <data name="lbl_panel2_player5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel2_player5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_panel2_player5.Text" xml:space="preserve">
+    <value>PLAYER 5</value>
+  </data>
+  <data name="lbl_panel2_player5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player5.Name" xml:space="preserve">
+    <value>lbl_panel2_player5</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player5.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_panel2_player4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 149</value>
+  </data>
+  <data name="lbl_panel2_player4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 42</value>
+  </data>
+  <data name="lbl_panel2_player4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_panel2_player4.Text" xml:space="preserve">
+    <value>PLAYER 4</value>
+  </data>
+  <data name="lbl_panel2_player4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player4.Name" xml:space="preserve">
+    <value>lbl_panel2_player4</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player4.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_panel2_player3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 99</value>
+  </data>
+  <data name="lbl_panel2_player3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 42</value>
+  </data>
+  <data name="lbl_panel2_player3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_panel2_player3.Text" xml:space="preserve">
+    <value>PLAYER 3</value>
+  </data>
+  <data name="lbl_panel2_player3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player3.Name" xml:space="preserve">
+    <value>lbl_panel2_player3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player3.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_panel2_player2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 49</value>
+  </data>
+  <data name="lbl_panel2_player2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 42</value>
+  </data>
+  <data name="lbl_panel2_player2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_panel2_player2.Text" xml:space="preserve">
+    <value>PLAYER 2</value>
+  </data>
+  <data name="lbl_panel2_player2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player2.Name" xml:space="preserve">
+    <value>lbl_panel2_player2</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player2.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbl_panel2_player1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 24.75pt</value>
+  </data>
+  <data name="lbl_panel2_player1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_panel2_player1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="lbl_panel2_player1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 40</value>
+  </data>
+  <data name="lbl_panel2_player1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_panel2_player1.Text" xml:space="preserve">
+    <value>PLAYER 1</value>
+  </data>
+  <data name="lbl_panel2_player1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player1.Name" xml:space="preserve">
+    <value>lbl_panel2_player1</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player1.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_panel2_player1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 204</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 543</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>Cricket_Score_Board.Form1+DoubleBufferPanel, Cricket Score Board, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1370, 768</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
